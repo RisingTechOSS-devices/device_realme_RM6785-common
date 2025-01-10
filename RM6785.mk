@@ -233,7 +233,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.pixel-libperfmgr \
+    android.hardware.power-service.lineage-libperfmgr \
     android.hardware.power@1.2.vendor:64
 
 PRODUCT_PACKAGES += \
@@ -294,6 +294,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/mediatek \
     hardware/mediatek/libmtkperf_client \
+    hardware/lineage/interfaces/power-libperfmgr \
     $(LOCAL_PATH)
 
 # Soundtrigger
